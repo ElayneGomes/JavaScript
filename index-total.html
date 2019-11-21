@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Plugins JQuery</title>
+	<style>
+		body {
+			padding: 20px;
+			}
+	</style>
+</head>
+<body>
+	<div class="panel panel-default">
+		<div class="palnel-heading">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-xs-3">
+						<div class="form-group">
+							<label for="">Valor</label>
+							<input type="text" class="form_control" id="valor">
+						</div>
+					</div>
+					<dir class="col-xs-3">
+						<div class="form-group">
+							<label for="">Valor Total</label>
+							<input type="hidden" id="total-mascara"/>
+							<p class="form-control-static" id="total">0</p>
+						</div>
+					</dir>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script> 
+<script src="plugins-jquery.js"></script>	
+</body>
+</html>
